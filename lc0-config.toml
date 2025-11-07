@@ -1,0 +1,34 @@
+[General]
+# 'engine_type' Must be either 'local_engine' or 'remote_engine'
+engine_type = "local_engine"
+engine_path = "bin/lc0"
+network_base_path = "bin/b124efddc27559564d6464ba3d213a8279b7bd35b1cbfcf9c842ae8053721207"
+
+# Leela Chess Zero configs used for experiments
+# See https://github.com/LeelaChessZero/lc0/wiki/Lc0-options
+# for a list of all options
+[EngineConfig]
+Backend = "cuda-fp16" #"cuda-fp16"
+VerboseMoveStats = true
+SmartPruningFactor = 0
+Threads = 1
+TaskWorkers = 0
+MinibatchSize = 1
+MaxPrefetch = 0
+NNCacheSize = 200000
+TwoFoldDraws = false # This was already a valid boolean
+
+# For how long Leela Chess Zero should evaluate a position
+# See https://python-chess.readthedocs.io/en/latest/engine.html#chess.engine.Limit
+# for a list of options.
+[SearchLimits]
+nodes = 400 # This was already a valid integer
+
+
+# The following parameters are only required if you installed
+# Leela Chess Zero on a different machine than the one you're using
+# to run the experiments
+# [Remote]
+# remote_host = "uri.of.server.com"
+# remote_user = "username"
+# password_required = true

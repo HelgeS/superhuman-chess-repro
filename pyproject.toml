@@ -1,0 +1,11 @@
+[project]
+name = "repro"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "chess==1.9.4",
+    "python-chess>=1.999",
+    "tqdm>=4.67.1",
+]
