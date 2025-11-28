@@ -6,6 +6,8 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "chess==1.9.4",
+    "pandas>=2.3.3",
     "python-chess>=1.999",
+    "rich>=14.2.0",
     "tqdm>=4.67.1",
 ]
