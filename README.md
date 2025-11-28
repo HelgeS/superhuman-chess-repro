@@ -6,3 +6,4 @@ I follow the [instructions of the original paper](https://github.com/ethz-spylab
 
 [Weights](https://training.lczero.org/get_network?sha=b124efddc27559564d6464ba3d213a8279b7bd35b1cbfcf9c842ae8053721207) 
 
+To compare, you also need the [original data files](https://github.com/ethz-privsec/superhuman-ai-consistency/releases/tag/v1.0.0).
